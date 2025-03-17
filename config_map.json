@@ -1,0 +1,46 @@
+{
+    "keywords": {
+        "releases": [
+        {
+            "endpoint": "/api/0/projects/{organization_slug}/{project_slug}/releases/",
+            "insights": "Having releases set up is important to track the health of your deployments. Make sure you have your release artifacts uploaded to Sentry."
+        }
+        ],
+        "alert_rules": [
+        {
+            "endpoint": "/api/0/projects/{organization_slug}/{project_slug}/rules/",
+            "insights": "Setting up alert rules ensures you are notified about important issues. Verify that you have critical alert rules configured to monitor your application."
+        }
+        ],
+        "environments": [
+        {
+            "endpoint": "/api/0/projects/{organization_slug}/{project_slug}/environments/",
+            "insights": "Configuring environments helps you track issues in different stages of your application, such as production, staging, and development."
+        }
+        ],
+        "integrations": [
+        {
+            "endpoint": "/api/0/organizations/{organization_slug}/config/integrations/",
+            "insights": "Integrating Sentry with other tools you use, like Slack or GitHub, can help streamline your workflow and ensure timely notifications and issue management."
+        }
+        ],
+        "teams": [
+        {
+            "endpoint": "/api/0/organizations/{organization_slug}/teams/",
+            "insights": "Ensure that your teams are set up correctly so that the right people are assigned to handle specific issues."
+        }
+        ],
+        "members": [
+        {
+            "endpoint": "/api/0/organizations/{organization_slug}/members/",
+            "insights": "Keep your team members up to date in Sentry to ensure that notifications and permissions are correctly assigned."
+        }
+        ],
+        "notification_settings": [
+        {
+            "endpoint": "/api/0/organizations/{organization_slug}/notification-settings/",
+            "insights": "Proper notification settings ensure that alerts and updates are sent to the right channels and people."
+        }
+        ]
+    }
+}
